@@ -14,15 +14,15 @@ body {
 /* Horizontal alignment with exactly 20px gap between cards */
 .container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap; /* Prevents layout breakage on small screens while remaining horizontal on desktops */
+  flex-flow: row wrap; 
 }
 
 /* Product card container styling */
 .product-card {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   display: flex;
@@ -45,16 +45,16 @@ body {
 }
 
 .product-title {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  color: #333333;
+  color: #333;
 }
 
 .product-description {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   text-align: center;
-  color: #666666;
+  color: #666;
 }
