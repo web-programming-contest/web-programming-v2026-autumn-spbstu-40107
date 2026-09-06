@@ -17,7 +17,6 @@ body {
   flex-flow: row wrap;
   gap: 20px;
   justify-content: center;
-  flex-flow: row wrap; 
 }
 
 /* Product card container styling */
@@ -45,7 +44,7 @@ body {
 }
 
 .product-title {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -53,7 +52,7 @@ body {
 }
 
 .product-description {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   font-size: 14px;
   text-align: center;
   color: #666;
