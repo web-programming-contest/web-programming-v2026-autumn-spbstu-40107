@@ -12,7 +12,7 @@ permissions:
 jobs:
   submission:
     name: Automated submission checks
-    uses: web-programming-contest/web-programming-ci-utils/.github/workflows/submission.yml@bf8d1d8c56029d27f071050f0d5690a33825e9b7
+    uses: web-programming-contest/web-programming-ci-utils/.github/workflows/submission.yml@5807ddc58c37f716214c5139b3ec0d20b7ed0f34
     with:
       utils_repository: web-programming-contest/web-programming-ci-utils
-      utils_ref: "bf8d1d8c56029d27f071050f0d5690a33825e9b7"
+      utils_ref: "5807ddc58c37f716214c5139b3ec0d20b7ed0f34"
