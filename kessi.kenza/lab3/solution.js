@@ -6,6 +6,5 @@ export function shuffleArray(arr) {
         i--;                                     
         [result[i], result[j]] = [result[j], result[i]]; 
     }
-
     return result;
 }
