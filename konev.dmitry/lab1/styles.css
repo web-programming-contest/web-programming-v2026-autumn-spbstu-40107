@@ -1,0 +1,37 @@
+.scene {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  margin: 50px auto;
+}
+
+.red,
+.blue {
+  width: 150px;
+  height: 100px;
+}
+
+.red {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 40px;
+  background-color: red;
+}
+
+.green {
+  width: 200px;
+  height: 190px;
+  position: relative;
+  z-index: 2;
+  margin: 80px auto 0;
+  background-color: green;
+}
+
+.blue {
+  position: absolute;
+  z-index: 3;
+  top: 160px;
+  left: 200px;
+  background-color: blue;
+}
