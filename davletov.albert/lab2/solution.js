@@ -1,21 +1,16 @@
 export function analyzieString(str) {
-  let length;
-
   if (typeof str === 'number') {
     str = str.toString();
-    length = str.length;
-  } else {
-    length = str.length;
   }
 
-  let letterPattern = /\p{L}/u;
-  let digPattern = /[0-9]/;
+  const letterPattern = /\p{L}/u;
+  const digPattern = /[0-9]/;
   let letterCount = 0;
   let digCount = 0;
   let spaceCount = 0;
   let othCount = 0;
 
-  for (let ch of str) {
+  for (const ch of str) {
     if (letterPattern.test(ch) === true) {
       letterCount++;
     } else if (digPattern.test(ch) === true) {
