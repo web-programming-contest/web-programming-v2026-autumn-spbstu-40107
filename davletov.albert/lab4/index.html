@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Лабораторная работа 4</h1>
+      <form data-testid="entity-form">
+        <label>
+          Название библиотеки
+          <input name="name" type="text" required />
+        </label>
+        <button type="submit">Добавить библиотеку</button>
+      </form>
+
+      <form data-testid="book-form">
+        <label>
+          Название книги
+          <input name="title" type="text" />
+        </label>
+        <label>
+          Автор
+          <input name="author" type="text" />
+        </label>
+        <label>
+          Год издания
+          <input name="year" type="number" />
+        </label>
+        <label>
+          Библиотека
+          <select name="libraryName"></select>
+        </label>
+        <label>
+          Жанр
+          <input name="genre" type="text" />
+        </label>
+        <button type="submit">Добавить книгу</button>
+      </form>
+      <section
+        data-testid="entity-list"
+        aria-label="Список элементов"
+      ></section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
