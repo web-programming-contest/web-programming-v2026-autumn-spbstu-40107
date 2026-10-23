@@ -1,0 +1,50 @@
+.footer {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: start;
+  padding-top: 40px;
+  padding-bottom: 48px;
+}
+
+.footer__logo {
+  color: var(--pale);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer__copyright {
+  margin-top: 32px;
+}
+
+.footer__phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--pale);
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer__phone:hover {
+  color: #fff;
+}
+
+.footer__phone-icon {
+  height: 32px;
+  filter: brightness(0) saturate(100%) invert(84%) sepia(13%) saturate(1500%) hue-rotate(190deg);
+}
+
+.footer__socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__socials a:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,33 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 940px;
+  padding: 164px 24px 80px;
+  background: #e5eeff url('/images/illustrations/login-bg.png') center 28px / 1900px auto no-repeat;
+}
+
+.login__title {
+  margin-bottom: 40px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 382px;
+  padding: 48px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.login__button {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.login__error {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 500;
+}

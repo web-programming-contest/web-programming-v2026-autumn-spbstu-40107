@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-top: 0;
+  padding-bottom: 104px;
+}
+
+.home__banner {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home__error {
+  color: var(--pink);
+}
+
+.home__advantages,
+.home__contacts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home__advantage {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 217px;
+  padding: 32px;
+  border-radius: 20px;
+  background: #f5f5f5;
+}
+
+.home__contacts {
+  margin-top: 48px;
+}
+
+.home__contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.home__contact a {
+  text-decoration: none;
+}
+
+.home__contact a:hover {
+  color: var(--primary);
+}

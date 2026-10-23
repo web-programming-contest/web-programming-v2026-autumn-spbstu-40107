@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 900;
+}
+
+:root {
+  --dark: #0c368a;
+  --primary: #115efb;
+  --light: #84adff;
+  --pale: #b7ceff;
+  --pink: #ff60c3;
+  --pink-dark: #cd3c96;
+  --pink-light: #f2a2d4;
+  --green: #00e398;
+  --yellow: #ffec41;
+  --gray-blue: #aebddb;
+  --gray: #e4e7eb;
+  --bg: #f3f6fa;
+  --image-bg: #eceff3;
+  --text: #000;
+  --text-secondary: #484848;
+  --text-muted: #7b7b7b;
+  --text-placeholder: #b9b9b9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout__main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.layout__main > * {
+  flex: 1;
+}
+
+.page {
+  padding: 64px 0 80px;
+}
+
+.page--gray {
+  background: var(--bg);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 500;
+}

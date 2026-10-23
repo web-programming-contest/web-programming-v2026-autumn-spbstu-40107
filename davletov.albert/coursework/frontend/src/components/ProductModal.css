@@ -1,0 +1,99 @@
+.modal__window.product-modal {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 32px;
+  width: 1110px;
+  padding: 88px 116px 72px;
+}
+
+.product-modal__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 375px;
+  border-radius: 20px;
+  background: var(--image-bg);
+}
+
+.product-modal__image img {
+  mix-blend-mode: multiply;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.product-modal__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.product-modal__labels {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.product-modal__title {
+  margin-bottom: 16px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.product-modal__description {
+  margin: 24px 0 32px;
+  font-size: 14px;
+}
+
+.product-modal__subtitle {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-modal__specs {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+.product-modal__spec {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.product-modal__spec dt {
+  flex-shrink: 0;
+}
+
+.product-modal__spec dd {
+  flex: 1;
+  margin: 0;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.product-modal__spec dd::before {
+  content: '';
+  flex: 1;
+  border-bottom: 1px dotted var(--text-placeholder);
+  transform: translateY(-4px);
+}
+
+.product-modal__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.product-modal__price {
+  font-size: 32px;
+  font-weight: 500;
+}

@@ -1,0 +1,43 @@
+.checkout {
+  margin-top: 80px;
+}
+
+.checkout__title {
+  margin: 0 0 32px 40px;
+}
+
+.checkout__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.checkout__row {
+  display: grid;
+  grid-template-columns: 286px 286px;
+  gap: 32px;
+}
+
+.checkout__radios {
+  display: flex;
+  gap: 40px;
+}
+
+.checkout__address {
+  width: 604px;
+}
+
+.checkout__payment {
+  width: 286px;
+}
+
+.checkout__submit {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.checkout__error {
+  color: var(--pink);
+}

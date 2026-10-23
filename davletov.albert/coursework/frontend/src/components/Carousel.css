@@ -1,0 +1,44 @@
+.carousel {
+  display: grid;
+  grid-template-columns: 260px 1fr 922px 0;
+  align-items: center;
+}
+
+.carousel__icon {
+  height: 44px;
+  margin-bottom: 16px;
+}
+
+.carousel__description {
+  margin-top: 16px;
+  color: var(--text-secondary);
+}
+
+.carousel__arrow {
+  justify-self: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='24' viewBox='0 0 14 24'%3E%3Cpath d='M12 2L2 12l10 10' fill='none' stroke='%23115efb' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+    center no-repeat;
+  cursor: pointer;
+}
+
+.carousel__arrow:hover {
+  background-color: var(--bg);
+}
+
+.carousel__arrow:focus-visible {
+  outline: 2px solid var(--light);
+}
+
+.carousel__arrow--next {
+  transform: translateX(26px) scaleX(-1);
+}
+
+.carousel__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}

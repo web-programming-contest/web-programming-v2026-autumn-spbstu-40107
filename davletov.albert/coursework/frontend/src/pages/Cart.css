@@ -1,0 +1,31 @@
+.tabs {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.tabs__tab {
+  padding: 0 40px 12px;
+  border: none;
+  border-bottom: 2px solid var(--gray-blue);
+  background: none;
+  color: var(--primary);
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tabs__tab:hover {
+  border-bottom-color: var(--primary);
+}
+
+.tabs__tab--active {
+  border-bottom: 3px solid var(--primary);
+  color: var(--text);
+  cursor: default;
+}
+
+.panel {
+  padding: 40px;
+  border-radius: 8px;
+  background: #fff;
+}

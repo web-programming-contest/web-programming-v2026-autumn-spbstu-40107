@@ -1,0 +1,28 @@
+.panel.order-history {
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  list-style: none;
+}
+
+.order-history__item {
+  display: grid;
+  grid-template-columns: 530px 318px 1fr;
+  padding: 16px 0;
+  font-size: 20px;
+}
+
+.order-history__item + .order-history__item {
+  border-top: 1px solid var(--gray);
+}
+
+.order-history__number,
+.order-history__total {
+  font-weight: 500;
+}
+
+.order-history__message {
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}

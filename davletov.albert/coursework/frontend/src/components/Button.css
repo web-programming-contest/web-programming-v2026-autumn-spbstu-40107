@@ -1,0 +1,64 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 48px;
+  padding: 0 32px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--light);
+  outline-offset: 2px;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button__icon {
+  width: 16px;
+  height: 16px;
+}
+
+.button--blue {
+  background: var(--primary);
+  color: #fff;
+}
+
+.button--blue:hover:not(:disabled) {
+  background: var(--dark);
+}
+
+.button--blue:disabled {
+  background: var(--light);
+}
+
+.button--pink {
+  background: var(--pink);
+  color: #fff;
+}
+
+.button--pink:hover:not(:disabled) {
+  background: var(--pink-dark);
+}
+
+.button--pink:disabled {
+  background: var(--pink-light);
+}
+
+.button--text {
+  padding: 0 16px;
+  background: none;
+  color: var(--text);
+}
+
+.button--text:hover {
+  color: var(--primary);
+}
