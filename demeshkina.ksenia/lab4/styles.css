@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #999;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+}

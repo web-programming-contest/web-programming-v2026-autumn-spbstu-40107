@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>Список фильмов</h1>
+      <form data-testid="entity-form">
+        <input type="text" name="title" placeholder="Название" required />
+        <input type="text" name="director" placeholder="Режиссёр" required />
+        <button type="submit">Добавить фильм</button>
+      </form>
+
+      <section
+        data-testid="entity-list"
+        aria-label="Список элементов"
+      ></section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
