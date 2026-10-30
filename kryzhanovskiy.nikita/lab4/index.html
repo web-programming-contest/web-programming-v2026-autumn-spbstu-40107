@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4 - Рецепты</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Книга рецептов</h1>
+
+      <section class="form-section">
+        <h2>Добавить новый рецепт</h2>
+        <form id="recipe-form" data-testid="entity-form">
+          <div class="form-group">
+            <label for="recipe-title">Название рецепта</label>
+            <input type="text" id="recipe-title" name="title" required />
+          </div>
+
+          <div class="form-group">
+            <label for="recipe-ingredients">Ингредиенты (через запятую)</label>
+            <input
+              type="text"
+              id="recipe-ingredients"
+              name="ingredients"
+              placeholder="Мука, Сахар, Молоко"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="recipe-steps"
+              >Шаги приготовления (через точку с запятой)</label
+            >
+            <textarea
+              id="recipe-steps"
+              name="steps"
+              rows="3"
+              placeholder="Смешать ингредиенты; Выпекать 20 минут"
+            ></textarea>
+          </div>
+
+          <button type="submit" id="submit-recipe">Создать рецепт</button>
+        </form>
+      </section>
+
+      <section class="recipes-section">
+        <h2>Список рецептов</h2>
+        <div
+          id="recipes-list"
+          data-testid="entity-list"
+          class="recipes-grid"
+        ></div>
+      </section>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
