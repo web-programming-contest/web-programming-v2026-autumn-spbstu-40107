@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Лабораторная работа 4</h1>
+
+      <form data-testid="entity-form" id="create-user-form">
+        <h2>Добавить пользователя</h2>
+        <div class="form-group">
+          <label for="new-user-id">ID пользователя:</label>
+          <input type="number" id="new-user-id" name="id" required min="1" />
+        </div>
+        <div class="form-group">
+          <label for="new-user-name">Имя пользователя:</label>
+          <input
+            type="text"
+            id="new-user-name"
+            name="name"
+            required
+            minlength="1"
+          />
+        </div>
+        <button type="submit" id="btn-add-user">Добавить пользователя</button>
+      </form>
+
+      <form id="add-friend-form" class="friend-form">
+        <h2>Добавить друга</h2>
+        <div class="form-group">
+          <label for="user-select-id">Пользователь:</label>
+          <select id="user-select-id" name="userId" required></select>
+        </div>
+        <div class="form-group">
+          <label for="friend-input-id">ID друга:</label>
+          <input
+            type="number"
+            id="friend-input-id"
+            name="friendId"
+            required
+            min="1"
+          />
+        </div>
+        <button type="submit" id="btn-add-friend">Добавить друга</button>
+      </form>
+
+      <section class="analytics-bar" aria-label="Аналитика пользователей">
+        <h2>Аналитика</h2>
+        <div class="analytics-controls">
+          <button type="button" id="btn-group-by-friends">
+            Группировка по числу друзей
+          </button>
+          <button type="button" id="btn-show-unique-friends">
+            Уникальный список друзей
+          </button>
+          <button type="button" id="btn-filter-no-friends">
+            Пользователи без друзей
+          </button>
+
+          <div class="inline-filter">
+            <input
+              type="number"
+              id="filter-common-friend-id"
+              placeholder="ID общего друга"
+              min="1"
+            />
+            <button type="button" id="btn-filter-common-friend">
+              С общим другом
+            </button>
+          </div>
+
+          <div class="inline-filter">
+            <input
+              type="number"
+              id="filter-min-friends-count"
+              placeholder="Мин. кол-во друзей"
+              min="0"
+            />
+            <button type="button" id="btn-filter-more-than">
+              Друзей больше чем
+            </button>
+          </div>
+
+          <button type="button" id="btn-reset-filters" class="btn-reset">
+            Сбросить фильтры (Показать всех)
+          </button>
+        </div>
+        <div id="analytics-result" class="analytics-output"></div>
+      </section>
+
+      <section
+        data-testid="entity-list"
+        aria-label="Список элементов"
+        id="entity-list-container"
+      ></section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
