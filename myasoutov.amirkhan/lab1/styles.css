@@ -45,13 +45,13 @@ body {
 }
 
 .pagination-link.active,
-.pagination-link[aria-current="page"] {
+.pagination-link[aria-current='page'] {
   background-color: #1a73e8;
   color: #fff;
   font-weight: bold;
 }
 
 .pagination-link.active:hover,
-.pagination-link[aria-current="page"]:hover {
+.pagination-link[aria-current='page']:hover {
   background-color: #1558b0;
 }
