@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 1 — центрирование</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1 class="page-title">Центрирование текста и изображения</h1>
+
+      <section class="demo" aria-labelledby="flex-title">
+        <h2 id="flex-title" class="demo-title">Способ 1. Flexbox</h2>
+        <div class="flex-container">
+          <article class="text-card">
+            <img
+              class="float-image"
+              src="assets/landscape.svg"
+              alt="Горы и солнце"
+              width="160"
+              height="120"
+            />
+            <h3 class="text-card-title">Путешествие в горы</h3>
+            <p>
+              Контейнер использует display: flex, justify-content: center и
+              align-items: center, поэтому карточка с текстом стоит ровно по
+              центру и по горизонтали, и по вертикали. Изображение прижато к
+              правому верхнему углу карточки через float: right, а текст
+              автоматически обтекает его слева и снизу. Если сузить окно
+              браузера, строки перестроятся, но обтекание сохранится.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo" aria-labelledby="absolute-title">
+        <h2 id="absolute-title" class="demo-title">
+          Способ 2. Абсолютное позиционирование
+        </h2>
+        <div class="absolute-container">
+          <img
+            class="corner-image"
+            src="assets/landscape.svg"
+            alt="Горы и солнце"
+            width="160"
+            height="120"
+          />
+          <div class="absolute-text">
+            <p>
+              Контейнер имеет position: relative. Текстовый блок позиционирован
+              абсолютно: top: 50% и left: 50% ставят его левый верхний угол в
+              центр, а transform: translate(-50%, -50%) сдвигает блок на
+              половину его размеров, поэтому центр блока совпадает с центром
+              контейнера. Изображение тоже абсолютное: top: 0 и right: 0
+              помещают его в правый верхний угол.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
