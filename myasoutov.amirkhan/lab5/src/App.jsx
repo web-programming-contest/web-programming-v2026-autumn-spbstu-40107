@@ -11,22 +11,23 @@ const COLORS = [
 ];
 
 export default function App() {
-  const [transactions, setTransactions] = useState([]);
   const [type, setType] = useState('expense');
   const [amount, setAmount] = useState('');
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
 
-  useEffect(() => {
+  const [transactions, setTransactions] = useState(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        setTransactions(JSON.parse(saved));
-      } catch {
-        console.error('Failed to parse transactions');
-      }
+    if (!saved) {
+      return [];
     }
-  }, []);
+    try {
+      const parsed = JSON.parse(saved);
+      return Array.isArray(parsed) ? parsed : [];
+    } catch {
+      return [];
+    }
+  });
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(transactions));
