@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.timer-input {
+  width: 120px;
+  padding: 6px;
+}
+
+.timer button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.timer-display {
+  width: 100%;
+  margin: 16px 0 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.timer-message {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
