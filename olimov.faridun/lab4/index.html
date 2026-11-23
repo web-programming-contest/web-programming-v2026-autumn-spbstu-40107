@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Рецепты</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Рецепты</h1>
+      <form data-testid="entity-form">
+        <label for="recipe-title">Название</label>
+        <input type="text" id="recipe-title" name="title" required />
+
+        <label for="recipe-ingredients">Ингредиенты</label>
+        <textarea
+          id="recipe-ingredients"
+          name="ingredients"
+          rows="3"
+          placeholder="Через запятую или с новой строки"
+        ></textarea>
+
+        <label for="recipe-steps">Шаги</label>
+        <textarea
+          id="recipe-steps"
+          name="steps"
+          rows="3"
+          placeholder="Через запятую или с новой строки"
+        ></textarea>
+
+        <button type="submit">Добавить рецепт</button>
+      </form>
+      <section
+        data-testid="entity-list"
+        aria-label="Список элементов"
+      ></section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

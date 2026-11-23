@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+input,
+textarea {
+  padding: 6px;
+  font: inherit;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.card {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.card li {
+  margin-bottom: 4px;
+}
+
+.card li button {
+  margin-left: 8px;
+}
+
+.add-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.add-row input {
+  flex: 1;
+}
