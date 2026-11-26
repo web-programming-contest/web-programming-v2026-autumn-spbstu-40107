@@ -1,5 +1,29 @@
 [
   {
+    "id": 721658,
+    "date": "26.11.2026",
+    "username": "user1",
+    "totalCount": 2,
+    "totalPrice": 9980,
+    "customer": {
+      "phone": ".ю.ю.",
+      "email": "",
+      "deliveryType": "pickup",
+      "address": "Самовывоз",
+      "paymentMethod": "По карте",
+      "needPackaging": false
+    },
+    "items": [
+      {
+        "id": 5,
+        "name": "Беспроводная акустика",
+        "price": 4990,
+        "image": "/goods/image_5.png",
+        "quantity": 2
+      }
+    ]
+  },
+  {
     "id": 242711,
     "date": "13.11.2026",
     "totalCount": 4,
@@ -22,7 +46,7 @@
         "color": "Белый",
         "isNew": true,
         "isHit": false,
-        "image": "/goods/8.png",
+        "image": "/goods/image_8.png",
         "description": "Смартфон Samsung Galaxy A55 5G 256 ГБ белый — стильный и производительный девайс.",
         "specs": {
           "Гарантия": "1 год",
@@ -32,24 +56,28 @@
         "quantity": 4,
         "checked": true
       }
-    ]
+    ],
+    "username": "admin"
   },
   {
     "id": 567800,
     "date": "28.04.2024",
     "totalCount": 1,
-    "totalPrice": 6990
+    "totalPrice": 6990,
+    "username": "admin"
   },
   {
     "id": 436789,
     "date": "01.03.2024",
     "totalCount": 4,
-    "totalPrice": 54378
+    "totalPrice": 54378,
+    "username": "admin"
   },
   {
     "id": 405674,
     "date": "12.02.2024",
     "totalCount": 2,
-    "totalPrice": 1300
+    "totalPrice": 1300,
+    "username": "admin"
   }
 ]

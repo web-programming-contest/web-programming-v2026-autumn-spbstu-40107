@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('/fonts/Rubik-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,6 +77,13 @@ body {
   align-items: center;
 }
 
+.logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .logo-text {
   font-size: 24px;
   font-weight: 700;
@@ -81,6 +120,22 @@ body {
 .nav-btn.active {
   color: #0d6efd;
   background: #e6f0ff;
+}
+
+.nav-icon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.logo--clickable:hover .logo-text {
+  color: #084298;
 }
 
 .cart-badge {
@@ -137,13 +192,24 @@ body {
 /* Главная страница */
 .hero-banner {
   margin-top: 28px;
-  background: linear-gradient(135deg, #0037ff 0%, #4facfe 100%);
+  background: #0d6efd;
   border-radius: 20px;
   padding: 48px 60px;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hero-banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(13, 110, 253, 0.25);
+}
+
+.hero-banner:active {
+  transform: translateY(0);
 }
 
 .hero-sale {
@@ -180,6 +246,30 @@ body {
   color: #666;
 }
 
+.hero-subtitle {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-img-box {
+  width: 360px;
+  height: 260px;
+  flex: none;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .carousel-section {
   margin-top: 48px;
   display: grid;
@@ -203,7 +293,7 @@ body {
   font-size: 32px;
 }
 
-.carousel-Wrap {
+.carousel-wrap {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -252,7 +342,7 @@ body {
 
 .card-img-wrap {
   position: relative;
-  background: #f4f6fb;
+  background: #ffffff;
   border-radius: 12px;
   height: 200px;
   display: flex;
@@ -262,8 +352,8 @@ body {
 }
 
 .card-img-wrap img {
-  max-width: 85%;
-  max-height: 85%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -382,6 +472,13 @@ body {
   align-items: center;
 }
 
+.contact-icon {
+  width: 16px;
+  height: 22px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
 /* Страница логина */
 .login-page-bg {
   min-height: 75vh;
@@ -481,7 +578,7 @@ body {
   gap: 20px;
 }
 
-.catalog-Filters {
+.catalog-filters {
   background: #fff;
   padding: 24px;
   border-radius: 16px;
@@ -545,6 +642,17 @@ body {
 .page-btn.active {
   background: #0d6efd;
   color: #fff;
+}
+
+.page-dots {
+  padding: 0 4px;
+  color: #6c757d;
+}
+
+.auth-checking {
+  padding-top: 60px;
+  font-size: 18px;
+  color: #6c757d;
 }
 
 /* Корзина */
@@ -630,7 +738,7 @@ body {
   width: 80px;
   height: 80px;
   object-fit: contain;
-  background: #f4f6fb;
+  background: #ffffff;
   border-radius: 10px;
   padding: 6px;
 }
@@ -751,7 +859,7 @@ body {
 
 .modal-img-box {
   position: relative;
-  background: #f4f6fb;
+  background: #ffffff;
   border-radius: 16px;
   height: 320px;
   display: flex;
@@ -760,8 +868,8 @@ body {
 }
 
 .modal-img-box img {
-  max-width: 85%;
-  max-height: 85%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -882,4 +990,55 @@ body {
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.social-circle:hover {
+  background: #084298;
+}
+
+/* Состояния интерактивных элементов из UI kit */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+.sort-chip:hover,
+.tab-btn:hover,
+.page-btn:hover {
+  background: #e6f0ff;
+}
+
+.sort-chip:active,
+.tab-btn:active,
+.page-btn:active,
+.qty-controls button:active,
+.carousel-arrow:active {
+  transform: scale(0.96);
+}
+
+.btn-blue:active,
+.btn-pink:active {
+  transform: translateY(1px);
+}
+
+.btn-reset:hover,
+.delete-link:hover,
+.btn-link:hover {
+  color: #d9363e;
+}
+
+input:disabled,
+select:disabled,
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
 }
