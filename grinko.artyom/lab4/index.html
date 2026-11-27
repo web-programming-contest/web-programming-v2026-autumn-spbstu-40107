@@ -1,81 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Лабораторная работа № 4</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <main>
-        <h1>Лабораторная работа № 4</h1>
-        <h2>Каталог одежды</h2>
+      <h1>Лабораторная работа № 4</h1>
+      <h2>Каталог одежды</h2>
 
-        <form id="item-form" data-testid="entity-form">
-            <label>
-                ID
-                <input name="id" type="number" min="1" step="1" required>
-            </label>
-            <label>
-                Название
-                <input name="name" type="text" required>
-            </label>
-            <label>
-                Размер
-                <select name="size" required>
-                    <option>S</option>
-                    <option selected>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                </select>
-            </label>
-            <button type="submit">Добавить товар</button>
-        </form>
+      <form id="item-form" data-testid="entity-form">
+        <label>
+          ID
+          <input name="id" type="number" min="1" step="1" required />
+        </label>
+        <label>
+          Название
+          <input name="name" type="text" required />
+        </label>
+        <label>
+          Размер
+          <select name="size" required>
+            <option>S</option>
+            <option selected>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+        </label>
+        <button type="submit">Добавить товар</button>
+      </form>
 
-        <div class="filters">
-            <label>
-                Цвет
-                <select id="color-filter">
-                    <option value="">Все цвета</option>
-                </select>
-            </label>
-            <label>
-                Больше N цветов
-                <input id="count-filter" type="number" min="0" step="1">
-            </label>
-            <label>
-                Группировка
-                <select id="grouping">
-                    <option value="">Без группировки</option>
-                    <option value="size">По размеру</option>
-                    <option value="colors">По количеству цветов</option>
-                </select>
-            </label>
-        </div>
+      <div class="filters">
+        <label>
+          Цвет
+          <select id="color-filter">
+            <option value="">Все цвета</option>
+          </select>
+        </label>
+        <label>
+          Больше N цветов
+          <input id="count-filter" type="number" min="0" step="1" />
+        </label>
+        <label>
+          Группировка
+          <select id="grouping">
+            <option value="">Без группировки</option>
+            <option value="size">По размеру</option>
+            <option value="colors">По количеству цветов</option>
+          </select>
+        </label>
+      </div>
 
-        <p id="status" role="status"></p>
-        <section id="items" data-testid="entity-list" aria-label="Список товаров"></section>
+      <p id="status" class="status" role="status"></p>
+      <section
+        id="items"
+        data-testid="entity-list"
+        aria-label="Список товаров"
+      ></section>
     </main>
 
     <template id="item-card">
-        <article class="card" data-testid="entity-card">
-            <h3></h3>
-            <p class="details"></p>
-            <p class="color-count"></p>
-            <ul class="colors"></ul>
+      <article class="card" data-testid="entity-card">
+        <h3>Товар</h3>
+        <p class="details"></p>
+        <p class="color-count"></p>
+        <ul class="colors"></ul>
 
-            <form class="color-form">
-                <label>
-                    Новый цвет
-                    <input name="color" type="text" required>
-                </label>
-                <button type="submit">Добавить цвет</button>
-            </form>
+        <form class="color-form">
+          <label>
+            Новый цвет
+            <input name="color" type="text" required />
+          </label>
+          <button type="submit">Добавить цвет</button>
+        </form>
 
-            <button class="delete" type="button" data-testid="delete-entity">Удалить товар</button>
-        </article>
+        <button class="delete" type="button" data-testid="delete-entity">
+          Удалить товар
+        </button>
+      </article>
     </template>
 
     <script type="module" src="./main.ts"></script>
-</body>
+  </body>
 </html>

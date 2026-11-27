@@ -1,108 +1,114 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    background: #f2f2f2;
-    color: #222;
-    font: 16px Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+  color: #222;
+  font:
+    16px Arial,
+    sans-serif;
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
-    margin: 0 0 14px;
-    font-size: 26px;
+  margin: 0 0 14px;
+  font-size: 26px;
 }
 
 h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-form, .filters {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    gap: 10px;
-    margin-bottom: 12px;
+form,
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 10px;
+  margin-bottom: 12px;
 }
 
 label {
-    display: grid;
-    gap: 4px;
-    font-size: 14px;
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
 }
 
-input, select, button {
-    padding: 6px 8px;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    font: inherit;
+input,
+select,
+button {
+  padding: 6px 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font: inherit;
 }
 
 input {
-    width: 160px;
+  width: 160px;
 }
 
-input[type="number"] {
-    width: 125px;
+input[type='number'] {
+  width: 125px;
 }
 
 button {
-    background: #e8edf6;
-    cursor: pointer;
+  background: #e8edf6;
+  cursor: pointer;
 }
 
 button:hover {
-    background: #dce5f4;
+  background: #dce5f4;
 }
 
 .card {
-    margin: 12px 0;
-    padding: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #fff;
+  margin: 12px 0;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
 }
 
 .card h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .card p {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
-.card h3, .colors {
-    overflow-wrap: anywhere;
+.card h3,
+.colors {
+  overflow-wrap: anywhere;
 }
 
 .colors li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .colors button {
-    margin-left: 8px;
-    font-size: 13px;
+  margin-left: 8px;
+  font-size: 13px;
 }
 
 .delete {
-    background: #f9e5e5;
+  background: #f9e5e5;
 }
 
 .delete:hover {
-    background: #f0d5d5;
+  background: #f0d5d5;
 }
 
-#status {
-    color: #a22;
+.status {
+  color: #a22;
 }
 
-#status:empty {
-    display: none;
+.status:empty {
+  display: none;
 }
