@@ -1,6 +1,5 @@
 import React from 'react';
 import {createRoot} from 'react-dom/client';
-import './styles.css';
 
 type Mark = 'X' | 'O';
 type Cell = Mark | null;
