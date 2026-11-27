@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "name": "Внешний аккумулятор 10000mAh, белый",
+    "image": "/assets/images/image_1.png",
+    "price": 2990,
+    "rating": 4.6,
+    "type": "Аксессуары",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-01",
+    "popularity": 107,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Внешний аккумулятор 10000mAh, черный",
+    "image": "/assets/images/image_2.png",
+    "price": 2990,
+    "rating": 4.7,
+    "type": "Аксессуары",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-02",
+    "popularity": 114,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth гарнитура, черный",
+    "image": "/assets/images/image_3.png",
+    "price": 1590,
+    "rating": 4.3,
+    "type": "Гарнитуры",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-03",
+    "popularity": 121,
+    "description": "Гарнитура для звонков, видеовстреч и любимой музыки. Удобная посадка для ежедневного использования.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Гарнитуры"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth гарнитура, серый",
+    "image": "/assets/images/image_4.png",
+    "price": 1590,
+    "rating": 4.4,
+    "type": "Гарнитуры",
+    "color": "Серый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-04",
+    "popularity": 128,
+    "description": "Гарнитура для звонков, видеовстреч и любимой музыки. Удобная посадка для ежедневного использования.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Гарнитуры"
+      },
+      {
+        "name": "Цвет",
+        "value": "Серый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Беспроводная акустика",
+    "image": "/assets/images/image_5.png",
+    "price": 3990,
+    "rating": 4.5,
+    "type": "Портативная акустика",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-05",
+    "popularity": 135,
+    "description": "Компактная акустика для любимой музыки. Подключайте устройство и берите хорошее настроение с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Портативная акустика"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Смартфон 256 ГБ фиолетовый",
+    "image": "/assets/images/image_6.png",
+    "price": 94990,
+    "rating": 5,
+    "type": "Смартфоны",
+    "color": "Фиолетовый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-06",
+    "popularity": 142,
+    "description": "Смартфон для общения, фотографий, приложений и развлечений. Удобный экран и современный дизайн.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Смартфоны"
+      },
+      {
+        "name": "Цвет",
+        "value": "Фиолетовый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Смартфон 256 ГБ черный",
+    "image": "/assets/images/image_7.png",
+    "price": 43990,
+    "rating": 4.2,
+    "type": "Смартфоны",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-07",
+    "popularity": 149,
+    "description": "Смартфон для общения, фотографий, приложений и развлечений. Удобный экран и современный дизайн.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Смартфоны"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Смартфон 256 ГБ белый",
+    "image": "/assets/images/image_8.png",
+    "price": 45990,
+    "rating": 4.6,
+    "type": "Смартфоны",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-08",
+    "popularity": 156,
+    "description": "Смартфон для общения, фотографий, приложений и развлечений. Удобный экран и современный дизайн.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Смартфоны"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Часы с GPS трекером черные",
+    "image": "/assets/images/image_9.png",
+    "price": 2000,
+    "rating": 4.8,
+    "type": "Умные часы",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-09",
+    "popularity": 163,
+    "description": "Часы для повседневных дел и активного отдыха. Следите за временем и оставайтесь на связи.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Умные часы"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Часы с GPS трекером синие",
+    "image": "/assets/images/image_10.png",
+    "price": 2000,
+    "rating": 4.5,
+    "type": "Умные часы",
+    "color": "Синий",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-10",
+    "popularity": 170,
+    "description": "Часы для повседневных дел и активного отдыха. Следите за временем и оставайтесь на связи.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Умные часы"
+      },
+      {
+        "name": "Цвет",
+        "value": "Синий"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Фитнес-браслет ASK-B19 зеленый",
+    "image": "/assets/images/image_11.png",
+    "price": 2299,
+    "rating": 4.7,
+    "type": "Фитнес-браслеты",
+    "color": "Зелёный",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-10-11",
+    "popularity": 177,
+    "description": "Лёгкий браслет для повседневной активности. Следите за движением и своими привычками.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Фитнес-браслеты"
+      },
+      {
+        "name": "Цвет",
+        "value": "Зелёный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Фитнес-браслет ASK-B19 черный",
+    "image": "/assets/images/image_12.png",
+    "price": 2299,
+    "rating": 4.6,
+    "type": "Фитнес-браслеты",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-12",
+    "popularity": 184,
+    "description": "Лёгкий браслет для повседневной активности. Следите за движением и своими привычками.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Фитнес-браслеты"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Наушники белые",
+    "image": "/assets/images/image_13.png",
+    "price": 5990,
+    "rating": 4.8,
+    "type": "Наушники",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-10-13",
+    "popularity": 191,
+    "description": "Беспроводные наушники для музыки, подкастов и звонков. Компактный футляр удобно брать с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Наушники"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Наушники синие",
+    "image": "/assets/images/image_14.png",
+    "price": 5990,
+    "rating": 4.5,
+    "type": "Наушники",
+    "color": "Голубой",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-14",
+    "popularity": 198,
+    "description": "Беспроводные наушники для музыки, подкастов и звонков. Компактный футляр удобно брать с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Наушники"
+      },
+      {
+        "name": "Цвет",
+        "value": "Голубой"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Наушники черные",
+    "image": "/assets/images/image_15.png",
+    "price": 5990,
+    "rating": 4.9,
+    "type": "Наушники",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-15",
+    "popularity": 205,
+    "description": "Беспроводные наушники для музыки, подкастов и звонков. Компактный футляр удобно брать с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Наушники"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Видеокамера для блогера",
+    "image": "/assets/images/image_16.png",
+    "price": 28990,
+    "rating": 4.7,
+    "type": "Камеры",
+    "color": "Чёрный",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-10-16",
+    "popularity": 212,
+    "description": "Компактная камера для съёмки путешествий и повседневных историй.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Камеры"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Микрофон с разъемом Type-C",
+    "image": "/assets/images/image_17.png",
+    "price": 3990,
+    "rating": 4.4,
+    "type": "Микрофоны",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-17",
+    "popularity": 219,
+    "description": "Микрофон для записи речи и видео. Подходит для общения и создания контента.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Микрофоны"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Чехол-подвеска силиконовый с карабином, красный",
+    "image": "/assets/images/image_18.png",
+    "price": 490,
+    "rating": 4.3,
+    "type": "Аксессуары",
+    "color": "Красный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-18",
+    "popularity": 226,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Красный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Чехол-подвеска силиконовый с карабином, белый",
+    "image": "/assets/images/image_19.png",
+    "price": 490,
+    "rating": 4.2,
+    "type": "Аксессуары",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-19",
+    "popularity": 233,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Чехол-подвеска силиконовый с карабином, серый",
+    "image": "/assets/images/image_20.png",
+    "price": 490,
+    "rating": 4.6,
+    "type": "Аксессуары",
+    "color": "Серый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-20",
+    "popularity": 240,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Серый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Чехол-подвеска силиконовый с карабином, желтый",
+    "image": "/assets/images/image_21.png",
+    "price": 490,
+    "rating": 4.8,
+    "type": "Аксессуары",
+    "color": "Жёлтый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-21",
+    "popularity": 247,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Жёлтый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Беспроводная акустика, серый",
+    "image": "/assets/images/image_22.png",
+    "price": 2490,
+    "rating": 4.4,
+    "type": "Портативная акустика",
+    "color": "Серый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-22",
+    "popularity": 254,
+    "description": "Компактная акустика для любимой музыки. Подключайте устройство и берите хорошее настроение с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Портативная акустика"
+      },
+      {
+        "name": "Цвет",
+        "value": "Серый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Беспроводная акустика, голубой",
+    "image": "/assets/images/image_23.png",
+    "price": 2990,
+    "rating": 4.5,
+    "type": "Портативная акустика",
+    "color": "Голубой",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-23",
+    "popularity": 261,
+    "description": "Компактная акустика для любимой музыки. Подключайте устройство и берите хорошее настроение с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Портативная акустика"
+      },
+      {
+        "name": "Цвет",
+        "value": "Голубой"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Беспроводная акустика, бежевый",
+    "image": "/assets/images/image_24.png",
+    "price": 1990,
+    "rating": 4.2,
+    "type": "Портативная акустика",
+    "color": "Бежевый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-24",
+    "popularity": 268,
+    "description": "Компактная акустика для любимой музыки. Подключайте устройство и берите хорошее настроение с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Портативная акустика"
+      },
+      {
+        "name": "Цвет",
+        "value": "Бежевый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Умная лампа",
+    "image": "/assets/images/image_25.png",
+    "price": 1790,
+    "rating": 4.6,
+    "type": "Умный дом",
+    "color": "Белый",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-10-25",
+    "popularity": 275,
+    "description": "Устройство для уютного дома и повседневного комфорта.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Умный дом"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Аппаратный ключ аутентификации NFC",
+    "image": "/assets/images/image_26.png",
+    "price": 10590,
+    "rating": 5,
+    "type": "Аксессуары",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-10-26",
+    "popularity": 282,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Аппаратный криптокошелек",
+    "image": "/assets/images/image_27.png",
+    "price": 8990,
+    "rating": 4.9,
+    "type": "Аксессуары",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-27",
+    "popularity": 289,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Очки виртуальной реальности, смартфоны до 6,5 дюйма",
+    "image": "/assets/images/image_28.png",
+    "price": 1590,
+    "rating": 4.1,
+    "type": "Виртуальная реальность",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-28",
+    "popularity": 296,
+    "description": "Откройте виртуальные миры, игры и новые впечатления с устройством виртуальной реальности.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Виртуальная реальность"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Шлем виртуальной реальности 128GB",
+    "image": "/assets/images/image_29.png",
+    "price": 49990,
+    "rating": 4.8,
+    "type": "Виртуальная реальность",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-10-01",
+    "popularity": 303,
+    "description": "Откройте виртуальные миры, игры и новые впечатления с устройством виртуальной реальности.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Виртуальная реальность"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Умный чемодан-скутер серый",
+    "image": "/assets/images/image_30.png",
+    "price": 89990,
+    "rating": 4.5,
+    "type": "Электротранспорт",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-02",
+    "popularity": 310,
+    "description": "Чемодан-скутер для поездок и путешествий. Продуманное сочетание багажа и мобильности.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Электротранспорт"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Умный чемодан-скутер черный",
+    "image": "/assets/images/image_31.png",
+    "price": 89990,
+    "rating": 4.7,
+    "type": "Электротранспорт",
+    "color": "Чёрный",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-10-03",
+    "popularity": 317,
+    "description": "Чемодан-скутер для поездок и путешествий. Продуманное сочетание багажа и мобильности.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Электротранспорт"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Дыхательный тренажер",
+    "image": "/assets/images/image_32.png",
+    "price": 2490,
+    "rating": 4.3,
+    "type": "Для здоровья",
+    "color": "Розовый",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-10-04",
+    "popularity": 324,
+    "description": "Компактный тренажёр для дыхательных упражнений и ежедневных занятий.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Для здоровья"
+      },
+      {
+        "name": "Цвет",
+        "value": "Розовый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Смартфон Apple iPhone 15 256 ГБ розовый",
+    "image": "/assets/images/image_33.png",
+    "price": 102099,
+    "rating": 5,
+    "type": "Смартфоны",
+    "color": "Розовый",
+    "isNew": true,
+    "isHit": true,
+    "createdAt": "2026-11-16",
+    "popularity": 1000,
+    "description": "Смартфон для общения, фотографий, приложений и развлечений. Удобный экран и современный дизайн.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Смартфоны"
+      },
+      {
+        "name": "Цвет",
+        "value": "Розовый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Умный робот-друг Red solution Reddy Air",
+    "image": "/assets/images/image_34.png",
+    "price": 27990,
+    "rating": 4.9,
+    "type": "Умный дом",
+    "color": "Белый",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-11-15",
+    "popularity": 970,
+    "description": "Умный робот-друг Red solution Reddy Air для игр и общения. Товар представлен на главном баннере магазина.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Умный дом"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Часы с GPS-трекером Geozon Active Pink",
+    "image": "/assets/images/image_35.png",
+    "price": 2000,
+    "rating": 4.8,
+    "type": "Умные часы",
+    "color": "Розовый",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-11-14",
+    "popularity": 940,
+    "description": "Часы для повседневных дел и активного отдыха. Следите за временем и оставайтесь на связи.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Умные часы"
+      },
+      {
+        "name": "Цвет",
+        "value": "Розовый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Смарт-часы Samsung Galaxy Watch4 40mm Black",
+    "image": "/assets/images/image_36.png",
+    "price": 15199,
+    "rating": 4,
+    "type": "Умные часы",
+    "color": "Чёрный",
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-11-13",
+    "popularity": 910,
+    "description": "Часы для повседневных дел и активного отдыха. Следите за временем и оставайтесь на связи.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Умные часы"
+      },
+      {
+        "name": "Цвет",
+        "value": "Чёрный"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Умная колонка Яндекс Станция Лайт с Алисой, розовая",
+    "image": "/assets/images/image_37.png",
+    "price": 4990,
+    "rating": 4.8,
+    "type": "Портативная акустика",
+    "color": "Розовый",
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-11-12",
+    "popularity": 880,
+    "description": "Компактная акустика для любимой музыки. Подключайте устройство и берите хорошее настроение с собой.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Портативная акустика"
+      },
+      {
+        "name": "Цвет",
+        "value": "Розовый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Шлем виртуальной реальности Pico 4 128GB",
+    "image": "/assets/images/image_38.png",
+    "price": 49990,
+    "rating": 4.8,
+    "type": "Виртуальная реальность",
+    "color": "Белый",
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-11-11",
+    "popularity": 850,
+    "description": "Откройте виртуальные миры, игры и новые впечатления с устройством виртуальной реальности.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Виртуальная реальность"
+      },
+      {
+        "name": "Цвет",
+        "value": "Белый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Аппаратный ключ аутентификации Yubico YubiKey Security Key NFC USB-A, синий",
+    "image": "/assets/images/image_39.png",
+    "price": 10590,
+    "rating": 5,
+    "type": "Аксессуары",
+    "color": "Синий",
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-11-10",
+    "popularity": 820,
+    "description": "Практичный аксессуар для повседневного использования дома, в поездке и на работе.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Аксессуары"
+      },
+      {
+        "name": "Цвет",
+        "value": "Синий"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Фитнес-браслет HUAWEI Band 8 (ASK-B19) розовый",
+    "image": "/assets/images/image_40.png",
+    "price": 2299,
+    "rating": 4.6,
+    "type": "Фитнес-браслеты",
+    "color": "Розовый",
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-11-09",
+    "popularity": 790,
+    "description": "Лёгкий браслет для повседневной активности. Следите за движением и своими привычками.",
+    "specifications": [
+      {
+        "name": "Тип товара",
+        "value": "Фитнес-браслеты"
+      },
+      {
+        "name": "Цвет",
+        "value": "Розовый"
+      },
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      }
+    ]
+  }
+]
