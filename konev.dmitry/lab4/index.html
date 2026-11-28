@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Коллекция фильмов" />
+    <title>Моя коллекция фильмов</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>Моя коллекция фильмов</h1>
+        <p>Управляйте фильмами, режиссёрами и актёрами</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="form-section">
+        <h2>Добавить фильм</h2>
+
+        <form data-testid="entity-form" id="movie-form">
+          <div class="form-group">
+            <label for="title">Название фильма</label>
+            <input
+              type="text"
+              id="title"
+              name="title"
+              placeholder="Например, Интерстеллар"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="director">Режиссёр</label>
+            <input
+              type="text"
+              id="director"
+              name="director"
+              placeholder="Например, Кристофер Нолан"
+              required
+            />
+          </div>
+
+          <button type="submit" class="button button-primary">
+            Добавить фильм
+          </button>
+        </form>
+      </section>
+
+      <section class="movies-section">
+        <h2>Мои фильмы</h2>
+
+        <div class="movie-list" data-testid="entity-list" id="movie-list"></div>
+      </section>
+
+      <section class="form-section">
+        <h2>Управление актёрами</h2>
+
+        <form id="actor-form">
+          <div class="form-group">
+            <label for="actor-movie">Фильм</label>
+            <select id="actor-movie" required>
+              <option value="">Выберите фильм</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="actor-name">Имя актёра</label>
+            <input
+              type="text"
+              id="actor-name"
+              placeholder="Введите имя актёра"
+              required
+            />
+          </div>
+
+          <div class="button-group">
+            <button type="submit" class="button button-primary">
+              Добавить актёра
+            </button>
+
+            <button
+              type="button"
+              class="button button-secondary"
+              id="remove-actor"
+            >
+              Удалить актёра
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Лабораторная работа №4 — Коллекция фильмов</p>
+      </div>
+    </footer>
+  </body>
+</html>

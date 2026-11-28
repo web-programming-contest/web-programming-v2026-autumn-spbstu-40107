@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #263238;
+  background-color: #f3f5f8;
+  line-height: 1.5;
+}
+
+.container {
+  width: min(100% - 32px, 1000px);
+  margin: 0 auto;
+}
+
+.header {
+  padding: 32px 0;
+  color: white;
+  background-color: #263b5a;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+}
+
+.header p {
+  margin: 0;
+  color: #dbe4f0;
+}
+
+.form-section,
+.movies-section {
+  margin: 28px 0;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.06);
+}
+
+h2 {
+  margin-top: 0;
+  color: #263b5a;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+input,
+select {
+  width: 100%;
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #cbd3dd;
+  border-radius: 6px;
+  font: inherit;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #729bd5;
+  border-color: #729bd5;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 6px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.button-primary {
+  color: white;
+  background-color: #3569a8;
+}
+
+.button-primary:hover {
+  background-color: #285487;
+}
+
+.button-secondary {
+  color: white;
+  background-color: #687789;
+}
+
+.button-secondary:hover {
+  background-color: #4e5b6a;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 18px;
+}
+
+.movie-card {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid #dce2e9;
+  border-radius: 8px;
+  background-color: #fafbfd;
+}
+
+.movie-card h3 {
+  margin-top: 0;
+  overflow-wrap: anywhere;
+}
+
+.movie-card p {
+  overflow-wrap: anywhere;
+}
+
+.movie-card ul {
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  color: #657386;
+}
+
+@media (width <= 600px) {
+  .form-section,
+  .movies-section {
+    padding: 18px;
+  }
+
+  .header {
+    padding: 24px 0;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group .button {
+    width: 100%;
+  }
+}
