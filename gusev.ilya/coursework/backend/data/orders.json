@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "userId": 1,
+    "date": "2026-11-28T09:40:37.000Z",
+    "phone": "+79997776655",
+    "email": "mail@mail.ru",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "id": 1,
+        "name": "Умный робот-друг Red solution Reddy Air",
+        "image": "/images/product-01.webp",
+        "price": 27990,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Часы с GPS трекером Geozon Active Pink",
+        "image": "/images/product-02.webp",
+        "price": 2000,
+        "quantity": 1
+      }
+    ],
+    "count": 2,
+    "total": 29990,
+    "clientRequestId": "f20cf13b-a26b-40aa-a7b6-42d800e3daec"
+  }
+]
