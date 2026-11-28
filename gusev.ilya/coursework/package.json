@@ -1,0 +1,16 @@
+{
+  "name": "gadget-hub-coursework",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "setup": "npm ci --prefix backend && npm ci --prefix frontend",
+    "dev": "node scripts/dev.js",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/server.js",
+    "test": "node --test backend/tests/*.test.js",
+    "check": "npm test && npm run build"
+  }
+}

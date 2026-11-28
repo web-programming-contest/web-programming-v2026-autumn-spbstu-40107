@@ -1,0 +1,669 @@
+[
+  {
+    "id": 1,
+    "name": "Умный робот-друг Red solution Reddy Air",
+    "type": "robot",
+    "color": "white",
+    "price": 27990,
+    "rating": 4.8,
+    "popularity": 99,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-01.webp",
+    "description": "Умный робот-друг Red solution Reddy Air. Интерактивный помощник и необычный подарок для любителей технологий.",
+    "specs": {
+      "Категория": "Роботы",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Часы с GPS трекером Geozon Active Pink",
+    "type": "watch",
+    "color": "pink",
+    "price": 2000,
+    "rating": 4.8,
+    "popularity": 98,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-02.webp",
+    "description": "Часы с GPS трекером Geozon Active Pink. Удобный гаджет на каждый день.",
+    "specs": {
+      "Категория": "Умные часы",
+      "Цвет": "Розовый"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Смартфон Apple iPhone 15 256 ГБ, розовый",
+    "type": "smartphone",
+    "color": "pink",
+    "price": 102099,
+    "rating": 5,
+    "popularity": 97,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-03.webp",
+    "description": "Смартфон Apple iPhone 15 256 ГБ, розовый. Гаджет для общения, фотографий и повседневных задач.",
+    "specs": {
+      "Категория": "Смартфоны",
+      "Цвет": "Розовый"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Смартфон Samsung Galaxy A55 5G 256 ГБ, фиолетовый",
+    "type": "smartphone",
+    "color": "purple",
+    "price": 43999,
+    "rating": 4.2,
+    "popularity": 96,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-04.webp",
+    "description": "Смартфон Samsung Galaxy A55 5G 256 ГБ, фиолетовый. Гаджет для общения, фотографий и повседневных задач.",
+    "specs": {
+      "Категория": "Смартфоны",
+      "Цвет": "Фиолетовый"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Смарт-часы Samsung Galaxy Watch4 40mm, чёрные",
+    "type": "watch",
+    "color": "black",
+    "price": 15199,
+    "rating": 4,
+    "popularity": 95,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-05.webp",
+    "description": "Смарт-часы Samsung Galaxy Watch4 40mm, чёрные. Удобный гаджет на каждый день.",
+    "specs": {
+      "Категория": "Умные часы",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Беспроводная акустика, голубой",
+    "type": "speaker",
+    "color": "cyan",
+    "price": 4990,
+    "rating": 4.8,
+    "popularity": 94,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-06.webp",
+    "description": "Беспроводная акустика, голубой. Любимая музыка дома и в дороге.",
+    "specs": {
+      "Категория": "Портативная акустика",
+      "Цвет": "Голубой"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Фитнес-браслет, розовый",
+    "type": "fitness",
+    "color": "pink",
+    "price": 2299,
+    "rating": 4.8,
+    "popularity": 93,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-07.webp",
+    "description": "Фитнес-браслет, розовый. Компактный помощник для активного образа жизни.",
+    "specs": {
+      "Категория": "Фитнес-браслеты",
+      "Цвет": "Розовый"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Аппаратный ключ аутентификации NFC",
+    "type": "security",
+    "color": "blue",
+    "price": 10590,
+    "rating": 5,
+    "popularity": 92,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-08.webp",
+    "description": "Аппаратный ключ аутентификации NFC. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Ключи и кошельки",
+      "Цвет": "Синий"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Шлем виртуальной реальности 128GB",
+    "type": "vr",
+    "color": "white",
+    "price": 49990,
+    "rating": 4.8,
+    "popularity": 91,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-09.webp",
+    "description": "Шлем виртуальной реальности 128GB. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Очки виртуальной реальности",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Смартфон Samsung Galaxy Z Flip5 8/256GB, фиолетовый",
+    "type": "smartphone",
+    "color": "purple",
+    "price": 94990,
+    "rating": 5,
+    "popularity": 90,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-10.webp",
+    "description": "Смартфон со складным корпусом и двумя экранами. Цвет: фиолетовый.",
+    "specs": {
+      "Категория": "Смартфоны",
+      "Цвет": "Фиолетовый",
+      "Память": "8/256 ГБ",
+      "Гарантия": "1 год",
+      "Внешний экран": "3,4 дюйма, 720 × 748 пикс.",
+      "Процессор": "Qualcomm Snapdragon 8 Gen 2"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Внешний аккумулятор 10000mAh, белый",
+    "type": "powerbank",
+    "color": "white",
+    "price": 2490,
+    "rating": 4.5,
+    "popularity": 89,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-11.webp",
+    "description": "Внешний аккумулятор 10000mAh, белый. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Внешние аккумуляторы",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Внешний аккумулятор 10000mAh, черный",
+    "type": "powerbank",
+    "color": "black",
+    "price": 2490,
+    "rating": 4.5,
+    "popularity": 88,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-12.webp",
+    "description": "Внешний аккумулятор 10000mAh, черный. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Внешние аккумуляторы",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bluetooth гарнитура, черный",
+    "type": "headphones",
+    "color": "black",
+    "price": 3990,
+    "rating": 4.5,
+    "popularity": 87,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-13.webp",
+    "description": "Bluetooth гарнитура, черный. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Наушники",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Bluetooth гарнитура, серый",
+    "type": "headphones",
+    "color": "gray",
+    "price": 3990,
+    "rating": 4.5,
+    "popularity": 86,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-14.webp",
+    "description": "Bluetooth гарнитура, серый. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Наушники",
+      "Цвет": "Серый"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Беспроводная акустика",
+    "type": "speaker",
+    "color": "black",
+    "price": 4990,
+    "rating": 4.5,
+    "popularity": 85,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-15.webp",
+    "description": "Беспроводная акустика. Любимая музыка дома и в дороге.",
+    "specs": {
+      "Категория": "Портативная акустика",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Смартфон 256 ГБ фиолетовый",
+    "type": "smartphone",
+    "color": "purple",
+    "price": 43999,
+    "rating": 4.5,
+    "popularity": 84,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-16.webp",
+    "description": "Смартфон 256 ГБ фиолетовый. Гаджет для общения, фотографий и повседневных задач.",
+    "specs": {
+      "Категория": "Смартфоны",
+      "Цвет": "Фиолетовый"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Смартфон 256 ГБ черный",
+    "type": "smartphone",
+    "color": "black",
+    "price": 43999,
+    "rating": 4.5,
+    "popularity": 83,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-17.webp",
+    "description": "Смартфон 256 ГБ черный. Гаджет для общения, фотографий и повседневных задач.",
+    "specs": {
+      "Категория": "Смартфоны",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Смартфон 256 ГБ белый",
+    "type": "smartphone",
+    "color": "white",
+    "price": 43999,
+    "rating": 4.5,
+    "popularity": 82,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-18.webp",
+    "description": "Смартфон 256 ГБ белый. Гаджет для общения, фотографий и повседневных задач.",
+    "specs": {
+      "Категория": "Смартфоны",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Часы с GPS трекером черные",
+    "type": "watch",
+    "color": "black",
+    "price": 2000,
+    "rating": 4.5,
+    "popularity": 81,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-19.webp",
+    "description": "Часы с GPS трекером черные. Удобный гаджет на каждый день.",
+    "specs": {
+      "Категория": "Умные часы",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Часы с GPS трекером синие",
+    "type": "watch",
+    "color": "blue",
+    "price": 2000,
+    "rating": 4.5,
+    "popularity": 80,
+    "isNew": true,
+    "isHit": false,
+    "image": "/images/product-20.webp",
+    "description": "Часы с GPS трекером синие. Удобный гаджет на каждый день.",
+    "specs": {
+      "Категория": "Умные часы",
+      "Цвет": "Синий"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Фитнес-браслет ASK-B19 зеленый",
+    "type": "fitness",
+    "color": "green",
+    "price": 2299,
+    "rating": 4.5,
+    "popularity": 79,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-21.webp",
+    "description": "Фитнес-браслет ASK-B19 зеленый. Компактный помощник для активного образа жизни.",
+    "specs": {
+      "Категория": "Фитнес-браслеты",
+      "Цвет": "Зелёный"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Фитнес-браслет ASK-B19 черный",
+    "type": "fitness",
+    "color": "black",
+    "price": 2299,
+    "rating": 4.5,
+    "popularity": 78,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-22.webp",
+    "description": "Фитнес-браслет ASK-B19 черный. Компактный помощник для активного образа жизни.",
+    "specs": {
+      "Категория": "Фитнес-браслеты",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Наушники белые",
+    "type": "headphones",
+    "color": "white",
+    "price": 3490,
+    "rating": 4.5,
+    "popularity": 77,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-23.webp",
+    "description": "Наушники белые. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Наушники",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Наушники синие",
+    "type": "headphones",
+    "color": "blue",
+    "price": 3490,
+    "rating": 4.5,
+    "popularity": 76,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-24.webp",
+    "description": "Наушники синие. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Наушники",
+      "Цвет": "Синий"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Наушники черные",
+    "type": "headphones",
+    "color": "black",
+    "price": 3490,
+    "rating": 4.5,
+    "popularity": 75,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-25.webp",
+    "description": "Наушники черные. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Наушники",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Видеокамера для блогера",
+    "type": "camera",
+    "color": "black",
+    "price": 32990,
+    "rating": 4.5,
+    "popularity": 74,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-26.webp",
+    "description": "Видеокамера для блогера. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Видеокамеры",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Микрофон с разъемом Type-C",
+    "type": "microphone",
+    "color": "black",
+    "price": 2990,
+    "rating": 4.5,
+    "popularity": 73,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-27.webp",
+    "description": "Микрофон с разъемом Type-C. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Микрофоны",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Чехол-подвеска силиконовый с карабином, красный",
+    "type": "accessory",
+    "color": "red",
+    "price": 990,
+    "rating": 4.5,
+    "popularity": 72,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-28.webp",
+    "description": "Чехол-подвеска силиконовый с карабином, красный. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Аксессуары",
+      "Цвет": "Красный"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Чехол-подвеска силиконовый с карабином, белый",
+    "type": "accessory",
+    "color": "white",
+    "price": 990,
+    "rating": 4.5,
+    "popularity": 71,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-29.webp",
+    "description": "Чехол-подвеска силиконовый с карабином, белый. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Аксессуары",
+      "Цвет": "Белый"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Чехол-подвеска силиконовый с карабином, серый",
+    "type": "accessory",
+    "color": "gray",
+    "price": 990,
+    "rating": 4.5,
+    "popularity": 70,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-30.webp",
+    "description": "Чехол-подвеска силиконовый с карабином, серый. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Аксессуары",
+      "Цвет": "Серый"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Чехол-подвеска силиконовый с карабином, желтый",
+    "type": "accessory",
+    "color": "yellow",
+    "price": 990,
+    "rating": 4.5,
+    "popularity": 69,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-31.webp",
+    "description": "Чехол-подвеска силиконовый с карабином, желтый. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Аксессуары",
+      "Цвет": "Жёлтый"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Беспроводная акустика, серый",
+    "type": "speaker",
+    "color": "gray",
+    "price": 4990,
+    "rating": 4.5,
+    "popularity": 68,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-32.webp",
+    "description": "Беспроводная акустика, серый. Любимая музыка дома и в дороге.",
+    "specs": {
+      "Категория": "Портативная акустика",
+      "Цвет": "Серый"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Беспроводная акустика, бежевый",
+    "type": "speaker",
+    "color": "beige",
+    "price": 4990,
+    "rating": 4.5,
+    "popularity": 67,
+    "isNew": false,
+    "isHit": true,
+    "image": "/images/product-33.webp",
+    "description": "Беспроводная акустика, бежевый. Любимая музыка дома и в дороге.",
+    "specs": {
+      "Категория": "Портативная акустика",
+      "Цвет": "Бежевый"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Умная лампа",
+    "type": "smart-home",
+    "color": "black",
+    "price": 1290,
+    "rating": 4.5,
+    "popularity": 66,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-34.webp",
+    "description": "Умная лампа. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Умный дом",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Аппаратный криптокошелек",
+    "type": "security",
+    "color": "black",
+    "price": 8990,
+    "rating": 4.5,
+    "popularity": 65,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-35.webp",
+    "description": "Аппаратный криптокошелек. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Ключи и кошельки",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Очки виртуальной реальности, смартфоны до 6,5\"",
+    "type": "vr",
+    "color": "black",
+    "price": 2990,
+    "rating": 4.5,
+    "popularity": 64,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-36.webp",
+    "description": "Очки виртуальной реальности, смартфоны до 6,5\". Гаджет для общения, фотографий и повседневных задач.",
+    "specs": {
+      "Категория": "Очки виртуальной реальности",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Умный чемодан-скутер серый",
+    "type": "transport",
+    "color": "gray",
+    "price": 64990,
+    "rating": 4.5,
+    "popularity": 63,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-37.webp",
+    "description": "Умный чемодан-скутер серый. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Электротранспорт",
+      "Цвет": "Серый"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Умный чемодан-скутер черный",
+    "type": "transport",
+    "color": "black",
+    "price": 64990,
+    "rating": 4.5,
+    "popularity": 62,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-38.webp",
+    "description": "Умный чемодан-скутер черный. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Электротранспорт",
+      "Цвет": "Чёрный"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Дыхательный тренажер",
+    "type": "health",
+    "color": "black",
+    "price": 3990,
+    "rating": 4.5,
+    "popularity": 61,
+    "isNew": false,
+    "isHit": false,
+    "image": "/images/product-39.webp",
+    "description": "Дыхательный тренажер. Практичный гаджет для дома, работы и путешествий.",
+    "specs": {
+      "Категория": "Гаджеты для здоровья",
+      "Цвет": "Чёрный"
+    }
+  }
+]
